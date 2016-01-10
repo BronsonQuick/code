@@ -251,7 +251,7 @@
 						"commands": {
 							"01_config": {
 								"command": "/tmp/config",
-								"cwd": "/var/www/html/wordpress"
+								"cwd": "/var/www/html"
 							}
 						},
 						"services": {
