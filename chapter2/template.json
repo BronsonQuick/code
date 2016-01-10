@@ -230,7 +230,7 @@
 							}
 						},
 						"sources": {
-							"/var/www/html": "https://wordpress.org/wordpress-4.2.4.tar.gz"
+							"/var/www/html": "https://wordpress.org/latest.tar.gz"
 						},
 						"files": {
 							"/tmp/config": {
