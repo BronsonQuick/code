@@ -299,7 +299,7 @@
 	},
 	"Outputs": {
 		"URL": {
-			"Value": {"Fn::Join": ["", ["http://", {"Fn::GetAtt": ["LoadBalancer", "DNSName"]}, "/wordpress"]]},
+			"Value": {"Fn::Join": ["", ["http://", {"Fn::GetAtt": ["LoadBalancer", "DNSName"]}, "/"]]},
 			"Description": "Wordpress URL"
 		}
 	}
